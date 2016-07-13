@@ -177,15 +177,3 @@
     app.init();
 
 }(window.asciicam = window.asciicam || {}));
-
-$('index.html').ready(function() {
-    $('.body').each(function() {
-        var target = $(index).html();
-        target = target.split("");
-        var result = "";
-        for (var i = 0, len = target.length; i < len; i++) {
-            result += '<span class="' + target[i] + '">' + target[i] + '</span>';
-        }
-        $(index).html(result);
-    });
-});
