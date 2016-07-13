@@ -45,14 +45,14 @@ div.body {
 }
 
 #asciiContainer {
-	background-color: #0FFF00;
+	background-color: #000000;
 	width: 2600px;
 	height: 1900px;
 	padding: 0px;
 	-box-shadow: 5px 6px 21px rgba(0, 0, 0, 0.99);
     -moz-box-shadow: 5px 6px 21px rgba(0, 0, 0, 0.99);
     -webkit-box-shadow: 5px 6px 21px rgba(0, 0, 0, 0.99);
-    color: #000000;
+    color: #0FFF00;
 }
 
 #asciiText {
