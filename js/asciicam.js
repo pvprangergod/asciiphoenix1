@@ -89,7 +89,7 @@
 			//text for ascii art.
 			//blackish = dense characters like "W", "@"
 			//whitish = light characters like "`", "."
-			if(gray < 3.64) character        = "$"; //almost BLACK
+			if(gray < 3.64) character        = "#ff0000$"; //almost BLACK
 			else if(gray < 7.29) character   = "@";
 			else if(gray < 10.93) character  = "B";
 			else if(gray < 14.57) character  = "%";
