@@ -94,7 +94,7 @@
 			else if(gray < 10.93) character = "'";
 			else if(gray < 14.57) character = "`";
 			else if(gray < 18.21) character = "^";
-			else if(gray < 21.86) character = """;
+			else if(gray < 21.86) character = "\"";
 			else if(gray < 25.5) character = ",";
 			else if(gray < 29.14) character = ":";
 			else if(gray < 32.79) character = ";";
