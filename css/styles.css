@@ -46,8 +46,8 @@ div.body {
 
 #asciiContainer {
 	background-color: #fff;
-	width: 960px;
-	height: 714px;
+	width: 1350px;
+	height: 740px;
 	padding: 10px;
 	-box-shadow: 5px 6px 21px rgba(0, 0, 0, 0.99);
     -moz-box-shadow: 5px 6px 21px rgba(0, 0, 0, 0.99);
@@ -59,8 +59,8 @@ div.body {
 	margin: 0px;
 	font-size:x-small; 
 	line-height:60%;
-	width: 960px;
-	height: 714px;
+	width: 1280px;
+	height: 720px;
 }
 
 .button:hover {
