@@ -90,12 +90,12 @@
 			//blackish = dense characters like "W", "@"
 			//whitish = light characters like "`", "."
 			if(gray > 250) character = " "; //almost white
-			else if(gray > 230) character = "`";
-			else if(gray > 200) character = ":";
-			else if(gray > 175) character = "*";
-			else if(gray > 150) character = "+";
-			else if(gray > 125) character = "#";
-			else if(gray > 50) character = "W";
+			else if(gray > 230) character = "SOH  ^a";
+			else if(gray > 200) character = "SOH  ^a";
+			else if(gray > 175) character = "SOH  ^a";
+			else if(gray > 150) character = "SOH  ^a";
+			else if(gray > 125) character = "SOH  ^a";
+			else if(gray > 50) character = "SOH  ^a";
 			else character = "@"; //almost black
 			
 			//newlines and injection into dom
