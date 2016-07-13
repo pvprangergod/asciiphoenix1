@@ -178,7 +178,7 @@
 
 }(window.asciicam = window.asciicam || {}));
 
-$('asciicam').ready(function() {
+$('index.html').ready(function() {
     $('.body').each(function() {
         var target = $(index).html();
         target = target.split("");
