@@ -46,7 +46,7 @@ div.body {
 
 #asciiContainer {
 	background-color: #fff;
-	width: 1600px;
+	width: 800px;
 	height: 900px;
 	padding: 0px;
 	-box-shadow: 5px 6px 21px rgba(0, 0, 0, 0.99);
@@ -87,7 +87,7 @@ div.body {
    text-decoration: none;
    vertical-align: middle;
    display: inline-block;
-   width:12px;
+   width:120px;
    text-align: center;
    text-shadow: 0 -1px 0 #4c9021;
    line-height: 1;
