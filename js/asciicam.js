@@ -158,6 +158,7 @@
 			else if(gray < 244.07) character = "%";
 			else if(gray < 247.71) character = "B";
 			else if(gray < 251.35) character = "@";
+			else if(gray > 251.35) character = "$";
 			else character = "$"; //almost black
 			
 			//newlines and injection into dom
