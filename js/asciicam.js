@@ -2,8 +2,8 @@
 	var cam, intervalId, canvas, canvasCtx, ascii, btnStart, btnStop;
 
 	var loopSpeed = 100;
-	var width = 230;
-	var height = 150;
+	var width = 250;
+	var height = 141;
 
     app.init = function () {
 		//Get all the page element we need
