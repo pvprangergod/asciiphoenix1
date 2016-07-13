@@ -90,7 +90,7 @@
 			//blackish = dense characters like "W", "@"
 			//whitish = light characters like "`", "."
 			if(gray > 250) character = " "; //almost white
-			else if(gray > 230) character = "`";
+			else if(gray > 230) character = "<font color="green">`</font>";
 			else if(gray > 200) character = ":";
 			else if(gray > 175) character = "*";
 			else if(gray > 150) character = "+";
