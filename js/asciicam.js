@@ -1,7 +1,7 @@
 (function (app) {
 	var cam, intervalId, canvas, canvasCtx, ascii, btnStart, btnStop;
 
-	var loopSpeed = 200;
+	var loopSpeed = 1000;
 	var width = 260;
 	var height = 146;
 
