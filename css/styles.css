@@ -49,6 +49,10 @@ div.body {
 	width: 1600px;
 	height: 900px;
 	padding: 0px;
+	-box-shadow: 5px 6px 21px rgba(0, 0, 0, 0.99);
+    -moz-box-shadow: 5px 6px 21px rgba(0, 0, 0, 0.99);
+    -webkit-box-shadow: 5px 6px 21px rgba(0, 0, 0, 0.99);
+    color: #000;
 }
 
 #asciiText {
