@@ -59,7 +59,7 @@
     //http://thecodeplayer.com/walkthrough/cool-ascii-animation-using-an-image-sprite-canvas-and-javascript
     app.loop = function () {
 		var r, g, b, gray;
-		var character, line = "\033[32m";
+		var character, line = "";
 		
 		//clear canvas
 		canvasCtx.clearRect (0, 0, width, height);
