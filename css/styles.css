@@ -29,7 +29,7 @@ a, a:visited {
 
 .header .inner .menu{
 	color: #fff;
-	margin-left: 14px;
+	margin-left: 140px;
 	position: absolute;
 	top: 10px;
 }
@@ -87,7 +87,7 @@ div.body {
    text-decoration: none;
    vertical-align: middle;
    display: inline-block;
-   width:120px;
+   width:12px;
    text-align: center;
    text-shadow: 0 -1px 0 #4c9021;
    line-height: 1;
