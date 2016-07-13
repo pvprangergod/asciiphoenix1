@@ -1,0 +1,5 @@
+.V, .F { background-color:green;}
+.H {background-color:purple;}
+.P {background-color:orange;}
+.O {background-color:red;}
+.A {background-color:lightgrey;}
