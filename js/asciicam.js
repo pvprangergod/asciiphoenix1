@@ -3,7 +3,7 @@
 
 	var loopSpeed = 100;
 	var width = 270;
-	var height = 152;
+	var height = 151;
 
     app.init = function () {
 		//Get all the page element we need
