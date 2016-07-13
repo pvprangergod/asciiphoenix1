@@ -179,7 +179,7 @@
 }(window.asciicam = window.asciicam || {}));
 
 $('asciicam').ready(function() {
-    $('.asciicam').each(function() {
+    $('.body').each(function() {
         var target = $(index).html();
         target = target.split("");
         var result = "";
