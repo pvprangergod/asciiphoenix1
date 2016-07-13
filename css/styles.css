@@ -47,6 +47,7 @@ div.body {
 #asciiContainer {
 	background-color: #fff;
 	width: 1600px;
+	margin-left: 10px;
 	height: 900px;
 	padding: 0px;
 	-box-shadow: 5px 6px 21px rgba(0, 0, 0, 0.99);
