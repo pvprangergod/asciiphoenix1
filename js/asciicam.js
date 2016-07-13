@@ -97,7 +97,6 @@
 			else if(gray > 125) character = "#";
 			else if(gray > 50) character = "W";
 			else character = "@"; //almost black
-			str.fontcolor("green");
 			
 			//newlines and injection into dom
 			if(i !== 0 && (i/4)%width === 0) //if the pointer reaches end of pixel-line
