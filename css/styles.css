@@ -7,12 +7,6 @@ body {
 	font-size: 12px;
 }
 
-.k, .L { background-color:green;}
-.b {background-color:purple;}
-.a {background-color:orange;}
-.h {background-color:red;}
-.o {background-color:yellow;}
-
 a, a:visited {
 	color: #87C3DE;
 }
