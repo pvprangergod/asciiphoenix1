@@ -157,7 +157,7 @@
 			else if(gray < 240.42) character = "^";
 			else if(gray < 244.07) character = "`";
 			else if(gray < 247.71) character = "'";
-			else if(gray < 251.35) character = ".";
+			else if(gray < 252.35) character = ".";
 			else character                   = " "; //almost WHITE
 			
 			//newlines and injection into dom
