@@ -117,7 +117,7 @@
 			else if(gray < 94.71) character = ")";
 			else if(gray < 98.36) character = "(";
 			else if(gray < 102) character = "|";
-			else if(gray < 105.64) character = "\";
+			else if(gray < 105.64) character = "\\";
 			else if(gray < 109.28) character = "/";
 			else if(gray < 112.93) character = "t";
 			else if(gray < 116.57) character = "f";
