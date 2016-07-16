@@ -1,3 +1,16 @@
+.p {
+ color: red;
+ }
+ .I {
+ color: blue;
+ }
+ .k {
+ color: yellow;
+}
+ .b {
+ color: green;
+ }
+ 
 body {
 	background-image: url('../img/pj001.png');
 	background-repeat: repeat;
