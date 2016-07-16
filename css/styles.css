@@ -57,7 +57,7 @@ div.body {
 #asciiText {
 	margin: 0px;
 	font-size:x-small; 
-	line-height:60%;
+	line-height:100%;
 	width: 1280px;
 	height: 720px;
 }
