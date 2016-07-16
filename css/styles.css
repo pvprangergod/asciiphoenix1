@@ -4,7 +4,7 @@ body {
 	margin: 0px;
 	color: white;
 	font-family: arial;
-	font-size: 8px;
+	font-size: 12px;
 }
 
 a, a:visited {
@@ -56,7 +56,7 @@ div.body {
 
 #asciiText {
 	margin: 0px;
-	font-size:large; 
+	font-size:x-small; 
 	line-height:60%;
 	width: 2133px;
 	height: 720px;
