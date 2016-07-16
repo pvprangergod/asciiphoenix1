@@ -62,24 +62,6 @@ div.body {
 	height: 720px;
 }
 
-
-.a {
-    color: red;
-}
-.b {
-    color: blue;
-}
-.c {
-    color: orange;
-}
-.d {
-    color: green;
-}
-.e {
-    color: yellow;
-}
-
-
 .button:hover {
 	text-decoration: none;
 }
