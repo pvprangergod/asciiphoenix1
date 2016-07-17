@@ -60,15 +60,6 @@ div.body {
 	line-height:60%;
 	width: 1280px;
 	height: 720px;
-	pre span:first-child {
-	  background: tomato;
-	}
-	pre span:nth-child(2) {
-	  background: #ddd;
-	}
-	pre span:nth-child(3) {
-	  background: #defede;
-	}
 }
 
 .button:hover {
