@@ -82,7 +82,7 @@
 			g = colordata[i+1];
 			b = colordata[i+2];
 			//converting the pixel into grayscale
-			gray = r*0.7 + g*0.7152 + b*0.0722;
+			gray = r*0.2126 + g*0.7152 + b*0.0722;
 			//overwriting the colordata array with grayscale values
 			//colordata[i] = colordata[i+1] = colordata[i+2] = gray;
 			
