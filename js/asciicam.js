@@ -26,7 +26,7 @@
 
 		// If browser supports user media
 		if (navigator.mediaDevices.getUserMedia) {
-			alert("we wuz kangs");
+			alert("we wuz kangzzz");
 			
 			navigator.mediaDevices.getUserMedia({video: true, toString: function() { return "video"; } },
 				function successCallback(stream) {
