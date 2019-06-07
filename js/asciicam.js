@@ -41,7 +41,18 @@
 		else
 		{
 			//Browser doesn't support user media
-			alert("Your browser does not support user media");
+			alert("Your browser does not support user media, testing other thing.");
+			navigator.mediaDevices.getUserMedia()({video: true, toString: function() { return "video"; } },
+				function successCallback(stream) {
+					cam.src = window.URL.createObjectURL(stream) || stream;
+					cam.play();
+					intervalId = setInterval(app.loop, loopSpeed);
+					btnStart.style.display = "none";
+					btnStop.style.display = "inline-block";
+				},
+				function errorCallback(error) {
+					alert("An error ocurred getting user media. Code:" + error.code);
+				});
 		}
 
 		e.preventDefault();
