@@ -21,16 +21,16 @@
 
     app.startCam = function (e) {
 		// Get specific vendor methods
-		navigator.mediaDevices.getUserMedia = navigator.mediaDevices.getUserMedia || navigator.mediaDevices.webkitGetUserMedia || navigator.mediaDevices.mozGetUserMedia || navigator.mediaDevices.msGetUserMedia;
+		navigator.getUserMedia = navigator.getUserMedia || navigator.webkitGetUserMedia || navigator.mozGetUserMedia || navigator.msGetUserMedia;
 		window.URL = window.URL || window.webkitURL || window.mozURL || window.msURL;
 
 		// If browser supports user media
-		if (navigator.mediaDevices.getUserMedia) {
+		if (navigator.getUserMedia) {
 			alert("we wuz kangzzz");
 			
-			navigator.mediaDevices.getUserMedia({video: true, toString: function() { return "video"; } },
+			navigator.getUserMedia({video: true, toString: function() { return "video"; } },
 				function successCallback(stream) {
-					cam.src = mediaStream;
+					cam.src = window.URL.createObjectURL(stream) || stream;
 					cam.play();
 					intervalId = setInterval(app.loop, loopSpeed);
 					btnStart.style.display = "none";
